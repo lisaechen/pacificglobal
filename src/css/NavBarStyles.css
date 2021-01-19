@@ -1,0 +1,36 @@
+.nav-bar-background {
+  width: 100vw;
+  height: 8em;
+  background-color: #5457a2;
+  position: relative;
+}
+
+.nav-bar-logo {
+  width: 7.5em;
+  left: 2em;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+}
+
+.nav-bar-background-cut-out-circle {
+  width: 100vw;
+  height: 30em;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: circle(4em at 6em 4em);
+  background-color: white;
+}
+
+.nav-bar-background-cut-out-rect {
+  width: 100vw;
+  height: 30em;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip: rect(0, 6em, 8em, 0);
+  background-color: white;
+}
