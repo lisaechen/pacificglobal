@@ -1,0 +1,12 @@
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  object-fit: cover;
+  height: 30em !important;
+}
+
+.image-gallery-icon:hover {
+  color: #ffd4b4 !important;
+}
+
+.image-gallery-bullets .image-gallery-bullet:hover {
+  background: #ffd4b4 !important;
+}

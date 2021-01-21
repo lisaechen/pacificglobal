@@ -7,10 +7,22 @@ export default class NavBar extends Component {
     return (
       <div>
         <div className="nav-bar-background">
-          <img src={logo} className="nav-bar-logo" />
-          <div className="nav-bar-background-cut-out-circle" />
-          <div className="nav-bar-background-cut-out-rect" />
+          <div className="nav-bar-logo-container">
+            <img src={logo} className="nav-bar-logo" />
+            <div className="nav-bar-background-cut-out-circle" />
+            <div className="nav-bar-background-cut-out-rect" />
+          </div>
+
+          <div className="nav-bar-titles-container">
+            <span className="nav-bar-title">HOME</span>
+            <span className="nav-bar-title">FRESH VEGETABLES</span>
+            <span className="nav-bar-title">FRESH FRUITS</span>
+            <span className="nav-bar-title">FOOD</span>
+            <span className="nav-bar-title">RESOURCES</span>
+            <span className="nav-bar-title">CONTACT</span>
+          </div>
         </div>
+        <div className="nav-bar-line-separator" />
       </div>
     );
   }

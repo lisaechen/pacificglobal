@@ -1,0 +1,28 @@
+.who-are-we-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.who-are-we-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6em;
+  color: #ffeee1;
+  background-color: #5457a2;
+  border-bottom: solid 0.2em #ffd4b4;
+  width: 100%;
+  height: 3em;
+  letter-spacing: 0.2em;
+}
+
+.who-we-are-text-container {
+  font-family: "GlacialIndifference-Regular";
+  font-size: 1.2em;
+  color: #504f4f;
+  width: 75%;
+  margin: auto;
+  line-height: 2.2em;
+  margin-top: 2em;
+}

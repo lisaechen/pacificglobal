@@ -1,0 +1,42 @@
+.info-background-img-container {
+  height: 33vw;
+}
+
+.background-img-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/field.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 33.33%;
+  height: 100%;
+  float: left;
+}
+
+.background-img-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/globe.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 33.33%;
+  height: 100%;
+  float: left;
+}
+
+.background-img-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/fresh.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 33.33%;
+  height: 100%;
+  float: left;
+}
+
+.info-title {
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
