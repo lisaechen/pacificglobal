@@ -1,3 +1,3 @@
-# Website for Pacific Global Enterprises
+# Website for Pacific Global Enterprises Inc.
 
 
