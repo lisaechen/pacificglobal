@@ -21,9 +21,16 @@ export default class WhoAreWe extends Component {
             contact us directly for more details.
           </div>
           <br />
+          <br />
+          <div>我們出口美國和加拿大產地的</div>
+          <br />
           <div>
-            美國加拿大新鮮水果蔬菜蘋果櫻桃葡萄青花菜西芹
-            美生菜馬鈴薯洋蔥出口商進口商
+            新鮮水果: 蘋果，櫻桃，水蜜桃，油桃，李子，葡萄，臍橙，葡萄柚 ...
+          </div>
+          <br />
+          <div>
+            新鮮蔬菜: 美生菜，蘿蔓心，青花菜，花椰菜，西芹，蘆筍，洋蔥，馬鈴薯
+            ...
           </div>
         </div>
       </div>
