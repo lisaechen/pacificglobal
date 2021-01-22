@@ -20,7 +20,9 @@ export default class FooterBar extends Component {
             <div className="footer-contact-info-container">
               <ul className="contact-container">
                 <img className="contact-icon" src={mail} />
-                <span>kevin@pacificglobal.ca</span>
+                <span>kevin</span>
+                <span style={{ fontSize: "1.5em" }}>@</span>
+                <span>pacificglobal.ca</span>
               </ul>
               <ul className="contact-container">
                 <img className="contact-icon" src={phone} />

@@ -13,7 +13,7 @@ export default class Fruits extends Component {
     return (
       <div>
         <div className="who-are-we-container">
-          <span className="who-are-we-title-container">FRESH FRUITS</span>
+          <span className="who-are-we-title-container">FOODS</span>
         </div>
         <div className="products-container">
           <div className="product-container">
