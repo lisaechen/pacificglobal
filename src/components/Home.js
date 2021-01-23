@@ -7,7 +7,7 @@ import Location from "./HomeComponents/Location";
 import GeneralInfo from "./HomeComponents/GeneralInfo";
 import Vegetables from "./HomeComponents/Vegetables";
 import Fruits from "./HomeComponents/Fruits";
-import Foods from "./HomeComponents/Foods";
+import Food from "./HomeComponents/Food";
 
 export default class Home extends Component {
   render() {
@@ -32,7 +32,7 @@ export default class Home extends Component {
           <Fruits />
         </div>
         <div className="home-margin">
-          <Foods />
+          <Food />
         </div>
       </div>
     );
