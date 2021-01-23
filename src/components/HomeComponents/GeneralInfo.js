@@ -12,7 +12,7 @@ export default class GeneralInfo extends Component {
     return (
       <div>
         <div className="who-are-we-container">
-          <span className="who-are-we-title-container">WHY CHOOSE US?</span>
+          <span className="who-are-we-title-container">WHAT WE DO</span>
         </div>
         <div className="info-background-img-container">
           <div className="background-img-1">

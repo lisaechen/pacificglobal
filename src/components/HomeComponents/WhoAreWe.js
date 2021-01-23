@@ -8,7 +8,7 @@ export default class WhoAreWe extends Component {
     return (
       <div>
         <Element name="about-us" className="who-are-we-container">
-          <span className="who-are-we-title-container">WHO ARE WE?</span>
+          <span className="who-are-we-title-container">WHO WE ARE</span>
         </Element>
         <div className="who-we-are-text-container">
           <div>

@@ -4,7 +4,7 @@ import "../css/FooterBarStyles.css";
 
 import mail from "../icons/icons8-envelope-96.svg";
 import phone from "../icons/icons8-phone-96.svg";
-import marker from "../icons/icons8-marker-96.svg";
+// import marker from "../icons/icons8-marker-96.svg";
 
 import icons8 from "../icons/Icons8_logo.svg";
 import unsplash from "../icons/Unsplash_wordmark_logo.svg";
@@ -19,13 +19,9 @@ export default class FooterBar extends Component {
             <div className="footer-contact-info-container">
               <ul className="contact-container">
                 <img className="contact-icon" src={mail} />
-                <span>kevin</span>
+                <span>info</span>
                 <span style={{ fontSize: "1.5em" }}>@</span>
                 <span>pacificglobal.ca</span>
-              </ul>
-              <ul className="contact-container">
-                <img className="contact-icon" src={marker} />
-                <span>3725 WINSFORD CRT., BURNABY BC, CANADA, V5A 4Y9</span>
               </ul>
               <ul className="contact-container">
                 <img className="contact-icon" src={phone} />
