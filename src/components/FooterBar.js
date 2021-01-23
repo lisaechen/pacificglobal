@@ -24,11 +24,11 @@ export default class FooterBar extends Component {
                 <span>pacificglobal.ca</span>
               </ul>
               <ul className="contact-container">
-                <img className="contact-icon" src={phone} />
+                <img className="contact-icon" src={marker} />
                 <span>3725 WINSFORD CRT., BURNABY BC, CANADA, V5A 4Y9</span>
               </ul>
               <ul className="contact-container">
-                <img className="contact-icon" src={marker} />
+                <img className="contact-icon" src={phone} />
                 <span>+1 (604) - 688 - 8003</span>
               </ul>
             </div>
