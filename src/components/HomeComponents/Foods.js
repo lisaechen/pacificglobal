@@ -8,13 +8,15 @@ import walnut_cover from "../../images/cover_imgs/walnut_cover.jpg";
 import canola_cover from "../../images/cover_imgs/canola_cover.jpg";
 import corn_cover from "../../images/cover_imgs/corn_cover.jpg";
 
+import { Element } from "react-scroll";
+
 export default class Fruits extends Component {
   render() {
     return (
       <div>
-        <div className="who-are-we-container">
+        <Element name="food" className="who-are-we-container">
           <span className="who-are-we-title-container">FOODS</span>
-        </div>
+        </Element>
         <div className="products-container">
           <div className="product-container">
             <img className="product-cover-img" src={almond_cover} />

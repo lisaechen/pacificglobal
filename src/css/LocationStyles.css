@@ -7,7 +7,6 @@
 .vancouver-image {
   object-fit: cover;
   width: 100%;
-  height: 30em;
   object-position: 100% 45%;
 }
 
@@ -15,18 +14,17 @@
   position: absolute;
   background-color: rgba(255, 255, 255, 0.5);
   width: 98%;
-  height: 28em;
 }
 
 .location-text-container {
-  display: flex;
   margin-left: 2em;
+  margin-right: 2em;
   margin-top: 2em;
   align-items: center;
+  display: flex;
 }
 
 .located-in-text {
-  font-size: 1.7em;
   color: #504f4f;
 }
 
@@ -37,7 +35,6 @@
 
 .we-do-business-text {
   background-color: #5457a2;
-  font-size: 1.2em;
   float: right;
   color: white;
   padding-top: 1em;
@@ -45,4 +42,131 @@
   padding-left: 1.5em;
   padding-right: 5em;
   margin-top: 1em;
+  width: 70%;
+  line-height: 2em;
+}
+
+/******** MEDIA QUERIES ********/
+@media only screen and (max-width: 500px) {
+  .vancouver-image {
+    height: 38em;
+  }
+
+  .vancouver-image-overlay {
+    height: 37.5em;
+  }
+
+  .located-in-text {
+    font-size: 1.6em;
+  }
+
+  .we-do-business-text {
+    font-size: 0.9em;
+  }
+
+  .location-text-container {
+    display: block;
+  }
+
+  .maple-leaf-icon {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .vancouver-image {
+    height: 24em;
+  }
+
+  .vancouver-image-overlay {
+    height: 23em;
+  }
+
+  .located-in-text {
+    font-size: 1.6em;
+  }
+
+  .we-do-business-text {
+    font-size: 0.9em;
+  }
+
+  .location-text-container {
+    display: block;
+  }
+
+  .maple-leaf-icon {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .vancouver-image {
+    height: 24em;
+  }
+
+  .vancouver-image-overlay {
+    height: 23em;
+  }
+
+  .located-in-text {
+    font-size: 1.6em;
+  }
+
+  .we-do-business-text {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .vancouver-image {
+    height: 26em;
+  }
+
+  .vancouver-image-overlay {
+    height: 25em;
+  }
+
+  .located-in-text {
+    font-size: 1.6em;
+  }
+
+  .we-do-business-text {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .vancouver-image {
+    height: 28em;
+  }
+
+  .vancouver-image-overlay {
+    height: 27em;
+  }
+
+  .located-in-text {
+    font-size: 1.6em;
+  }
+
+  .we-do-business-text {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .vancouver-image {
+    height: 30em;
+  }
+
+  .vancouver-image-overlay {
+    height: 28.5em;
+  }
+
+  .located-in-text {
+    font-size: 1.7em;
+  }
+
+  .we-do-business-text {
+    font-size: 1.2em;
+  }
 }

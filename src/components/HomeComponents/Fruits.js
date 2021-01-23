@@ -12,13 +12,15 @@ import peach_cover from "../../images/cover_imgs/peach_cover.jpg";
 import prune_cover from "../../images/cover_imgs/prune_cover.jpg";
 import tomato_cover from "../../images/cover_imgs/tomato_cover.jpg";
 
+import { Element } from "react-scroll";
+
 export default class Fruits extends Component {
   render() {
     return (
       <div>
-        <div className="who-are-we-container">
+        <Element name="fresh-fruit" className="who-are-we-container">
           <span className="who-are-we-title-container">FRESH FRUITS</span>
-        </div>
+        </Element>
         <div className="products-container">
           <div className="product-container">
             <img className="product-cover-img" src={apple_cover} />

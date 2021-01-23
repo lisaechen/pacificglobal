@@ -9,13 +9,15 @@ import lettuce_cover from "../../images/cover_imgs/lettuce_cover.jpg";
 import onion_cover from "../../images/cover_imgs/onion_cover.jpg";
 import potato_cover from "../../images/cover_imgs/potato_cover.jpg";
 
+import { Element } from "react-scroll";
+
 export default class Vegetables extends Component {
   render() {
     return (
       <div>
-        <div className="who-are-we-container">
+        <Element name="fresh-veg" className="who-are-we-container">
           <span className="who-are-we-title-container">FRESH VEGETABLES</span>
-        </div>
+        </Element>
         <div className="products-container">
           <div className="product-container">
             <img className="product-cover-img" src={asparagus_cover} />

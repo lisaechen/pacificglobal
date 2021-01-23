@@ -14,7 +14,8 @@ export default class SlideShow extends Component {
           autoPlay={true}
           showFullscreenButton={false}
           showPlayButton={false}
-          showBullets={true}
+          showBullets={false}
+          showNav={false}
         />
       </div>
     );

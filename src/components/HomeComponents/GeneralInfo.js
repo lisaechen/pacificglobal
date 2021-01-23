@@ -5,6 +5,8 @@ import natural from "../../icons/icons8-natural-food-100.svg";
 import global from "../../icons/icons8-earth-planet-100.svg";
 import fresh from "../../icons/icons8-sparkling-100.svg";
 
+import { Element } from "react-scroll";
+
 export default class GeneralInfo extends Component {
   render() {
     return (

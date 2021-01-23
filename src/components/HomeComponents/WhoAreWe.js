@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import "../../css/WhoAreWeStyles.css";
 
+import { Element } from "react-scroll";
+
 export default class WhoAreWe extends Component {
   render() {
     return (
       <div>
-        <div className="who-are-we-container">
+        <Element name="about-us" className="who-are-we-container">
           <span className="who-are-we-title-container">WHO ARE WE?</span>
-        </div>
+        </Element>
         <div className="who-we-are-text-container">
           <div>
             We are one of the competitive exporters of fresh fruits and

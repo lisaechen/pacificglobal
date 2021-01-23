@@ -12,7 +12,7 @@ import Foods from "./HomeComponents/Foods";
 export default class Home extends Component {
   render() {
     return (
-      <div style={{ marginTop: "6em" }}>
+      <div className="home-component-container">
         <div className="home-margin">
           <SlideShow />
         </div>
