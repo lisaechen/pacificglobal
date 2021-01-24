@@ -16,28 +16,33 @@ export default class GeneralInfo extends Component {
         </div>
         <div className="info-background-img-container">
           <div className="background-img-1">
-            <div>
+            <div className="info-title-container">
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <img className="info-title-icon" src={natural} />
               </div>
               <span className="info-title">Always Natural</span>
             </div>
+            <div className="info-overlay-container">...</div>
           </div>
+
           <div className="background-img-2">
-            <div>
+            <div className="info-title-container">
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <img className="info-title-icon" src={global} />
               </div>
               <span className="info-title">Global Sourcing</span>
             </div>
+            <div className="info-overlay-container">...</div>
           </div>
+
           <div className="background-img-3">
-            <div>
+            <div className="info-title-container">
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <img className="info-title-icon" src={fresh} />
               </div>
               <span className="info-title">Always Fresh</span>
             </div>
+            <div className="info-overlay-container">...</div>
           </div>
         </div>
       </div>

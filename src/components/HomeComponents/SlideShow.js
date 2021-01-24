@@ -7,7 +7,12 @@ import ImageGallery from "react-image-gallery";
 export default class SlideShow extends Component {
   render() {
     return (
-      <div>
+      <div style={{ position: "relative" }}>
+        <span className="slide-show-heading">
+          {/* {"IMPORTER & EXPORTER"}
+          <br /> {"OF FRESH PRODUCE"} */}
+          {"IMPORTER & EXPORTER OF FRESH PRODUCE"}
+        </span>
         <ImageGallery
           items={images}
           showThumbnails={false}
@@ -16,6 +21,7 @@ export default class SlideShow extends Component {
           showPlayButton={false}
           showBullets={false}
           showNav={false}
+          style={{ position: "absolute" }}
         />
       </div>
     );
@@ -29,6 +35,10 @@ const images = [
   },
   {
     original:
+      "https://images.unsplash.com/photo-1494412685616-a5d310fbb07d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3450&q=80",
+  },
+  {
+    original:
       "https://images.unsplash.com/photo-1552670070-7c3a4ffba6a1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3450&q=80",
   },
   {
@@ -38,6 +48,10 @@ const images = [
   {
     original:
       "https://images.unsplash.com/photo-1543528176-61b239494933?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3453&q=80",
+  },
+  {
+    original:
+      "https://images.unsplash.com/photo-1484759288640-783b22c95d54?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2560&q=80",
   },
   {
     original:
