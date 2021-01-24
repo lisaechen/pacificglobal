@@ -140,7 +140,7 @@ export default class NavBar extends Component {
 
             <div className="nav-bar-menu-container">
               <ChakraProvider>
-                <Menu>
+                <Menu style={{ zIndex: "1000" }}>
                   <MenuButton style={{ position: "fixed", zIndex: "200" }}>
                     <img className="nav-bar-menu-icon" src={menu_peach} />
                   </MenuButton>

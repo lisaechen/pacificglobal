@@ -3,6 +3,10 @@
   max-height: unset !important;
 }
 
+.image-gallery-slide {
+  z-index: -1;
+}
+
 .image-gallery-icon:hover {
   color: #ffd4b4 !important;
 }
@@ -13,7 +17,7 @@
 
 .slide-show-heading {
   position: absolute;
-  z-index: 10;
+  z-index: 0;
   color: white;
   display: flex;
   justify-content: center;

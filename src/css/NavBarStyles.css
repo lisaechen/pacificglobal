@@ -81,7 +81,6 @@
 
 /******** MEDIA QUERIES ********/
 
-/* render differently (for small devicess) if under 750px */
 @media only screen and (max-width: 500px) {
   .nav-bar-background {
     height: 5em;
@@ -296,4 +295,8 @@
 
 .css-1qqhaef {
   font-size: 2em;
+}
+
+.css-593qcw {
+  z-index: 100 !important;
 }
