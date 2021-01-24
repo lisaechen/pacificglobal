@@ -17,20 +17,18 @@
 }
 
 .location-text-container {
-  margin-left: 2em;
   margin-right: 2em;
   margin-top: 2em;
   align-items: center;
-  display: flex;
 }
 
 .located-in-text {
   color: #504f4f;
+  margin-left: 1em;
 }
 
 .maple-leaf-icon {
   width: 2.2em;
-  margin-left: 0.5em;
 }
 
 .we-do-business-text {
@@ -69,7 +67,7 @@
   }
 
   .maple-leaf-icon {
-    margin-left: 0;
+    margin-left: 1em;
   }
 }
 
@@ -95,7 +93,7 @@
   }
 
   .maple-leaf-icon {
-    margin-left: 0;
+    margin-left: 1em;
   }
 }
 
@@ -115,6 +113,14 @@
   .we-do-business-text {
     font-size: 0.9em;
   }
+
+  .location-text-container {
+    display: flex;
+  }
+
+  .maple-leaf-icon {
+    margin-left: 0.5em;
+  }
 }
 
 @media only screen and (min-width: 850px) {
@@ -132,6 +138,14 @@
 
   .we-do-business-text {
     font-size: 1em;
+  }
+
+  .location-text-container {
+    display: flex;
+  }
+
+  .maple-leaf-icon {
+    margin-left: 0.5em;
   }
 }
 
@@ -151,6 +165,14 @@
   .we-do-business-text {
     font-size: 1.1em;
   }
+
+  .location-text-container {
+    display: flex;
+  }
+
+  .maple-leaf-icon {
+    margin-left: 0.5em;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
@@ -168,5 +190,13 @@
 
   .we-do-business-text {
     font-size: 1.2em;
+  }
+
+  .location-text-container {
+    display: flex;
+  }
+
+  .maple-leaf-icon {
+    margin-left: 0.5em;
   }
 }
