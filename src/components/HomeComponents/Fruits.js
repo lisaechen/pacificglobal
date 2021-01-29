@@ -24,11 +24,11 @@ export default class Fruits extends Component {
         <div className="products-container">
           <div className="product-container">
             <img className="product-cover-img" src={apple_cover} />
-            <span className="product-name-overlay">APPLE</span>
+            <span className="product-name-overlay">APPLES</span>
           </div>
           <div className="product-container">
             <img className="product-cover-img" src={nectarine_cover} />
-            <span className="product-name-overlay">NECTARINE</span>
+            <span className="product-name-overlay">NECTARINES</span>
           </div>
           <div className="product-container">
             <img className="product-cover-img" src={blueberries_cover} />
@@ -40,7 +40,7 @@ export default class Fruits extends Component {
           </div>
           <div className="product-container">
             <img className="product-cover-img" src={oranges_cover} />
-            <span className="product-name-overlay">ORANGE</span>
+            <span className="product-name-overlay">ORANGES</span>
           </div>
           <div className="product-container">
             <img className="product-cover-img" src={grapes_cover} />
@@ -48,19 +48,19 @@ export default class Fruits extends Component {
           </div>
           <div className="product-container">
             <img className="product-cover-img" src={lemon_cover} />
-            <span className="product-name-overlay">LEMON</span>
+            <span className="product-name-overlay">LEMONS</span>
           </div>
           <div className="product-container">
             <img className="product-cover-img" src={peach_cover} />
-            <span className="product-name-overlay">PEACH</span>
+            <span className="product-name-overlay">PEACHES</span>
           </div>
           <div className="product-container">
             <img className="product-cover-img" src={prune_cover} />
-            <span className="product-name-overlay">PRUNE</span>
+            <span className="product-name-overlay">PRUNES</span>
           </div>
           <div className="product-container">
             <img className="product-cover-img" src={tomato_cover} />
-            <span className="product-name-overlay">TOMATO</span>
+            <span className="product-name-overlay">TOMATOES</span>
           </div>
         </div>
       </div>

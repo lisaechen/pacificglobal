@@ -8,11 +8,9 @@ export default class SlideShow extends Component {
   render() {
     return (
       <div style={{ position: "relative" }}>
-        <span className="slide-show-heading">
-          {/* {"IMPORTER & EXPORTER"}
-          <br /> {"OF FRESH PRODUCE"} */}
+        {/* <span className="slide-show-heading">
           {"IMPORTER & EXPORTER OF FRESH PRODUCE"}
-        </span>
+        </span> */}
         <ImageGallery
           items={images}
           showThumbnails={false}

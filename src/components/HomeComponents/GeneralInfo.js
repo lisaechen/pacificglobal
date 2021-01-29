@@ -22,7 +22,7 @@ export default class GeneralInfo extends Component {
               </div>
               <span className="info-title">Always Natural</span>
             </div>
-            <div className="info-overlay-container">...</div>
+            <div className="info-overlay-container">{always_natural}</div>
           </div>
 
           <div className="background-img-2">
@@ -32,7 +32,7 @@ export default class GeneralInfo extends Component {
               </div>
               <span className="info-title">Global Sourcing</span>
             </div>
-            <div className="info-overlay-container">...</div>
+            <div className="info-overlay-container">{global_sourcing}</div>
           </div>
 
           <div className="background-img-3">
@@ -42,10 +42,14 @@ export default class GeneralInfo extends Component {
               </div>
               <span className="info-title">Always Fresh</span>
             </div>
-            <div className="info-overlay-container">...</div>
+            <div className="info-overlay-container">{always_fresh}</div>
           </div>
         </div>
       </div>
     );
   }
 }
+
+const always_natural = "...";
+const global_sourcing = "...";
+const always_fresh = "...";

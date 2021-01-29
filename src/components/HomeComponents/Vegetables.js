@@ -25,7 +25,7 @@ export default class Vegetables extends Component {
           </div>
           <div className="product-container">
             <img className="product-cover-img" src={onion_cover} />
-            <span className="product-name-overlay">ONION</span>
+            <span className="product-name-overlay">ONIONS</span>
           </div>
           <div className="product-container">
             <img className="product-cover-img" src={broccoli_cover} />
@@ -33,11 +33,11 @@ export default class Vegetables extends Component {
           </div>
           <div className="product-container">
             <img className="product-cover-img" src={cabbage_cover} />
-            <span className="product-name-overlay">CABBAGE</span>
+            <span className="product-name-overlay">CABBAGES</span>
           </div>
           <div className="product-container">
             <img className="product-cover-img" src={potato_cover} />
-            <span className="product-name-overlay">POTATO</span>
+            <span className="product-name-overlay">POTATOES</span>
           </div>
           <div className="product-container">
             <img className="product-cover-img" src={celery_cover} />
