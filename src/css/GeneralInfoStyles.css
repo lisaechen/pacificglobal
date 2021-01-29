@@ -79,6 +79,7 @@
   transition: 0.3s ease-out;
   display: flex;
   text-align: center;
+  font-family: "GlacialIndifference-Regular";
 }
 
 .background-img-1:hover .info-overlay-container {
@@ -119,8 +120,9 @@
   }
 
   .info-overlay-container {
-    font-size: 1.5em;
+    font-size: 1.1em;
     line-height: 1.7em;
+    width: 80%;
   }
 
   .info-background-img-container {
@@ -143,10 +145,6 @@
     width: 100%;
     height: 100vw;
     float: unset;
-  }
-
-  .info-overlay-container {
-    width: 80%;
   }
 }
 
@@ -164,6 +162,7 @@
   .info-overlay-container {
     font-size: 1.5em;
     line-height: 1.7em;
+    width: 80%;
   }
 
   .info-background-img-container {
@@ -187,10 +186,6 @@
     height: 100vw;
     float: unset;
   }
-
-  .info-overlay-container {
-    width: 80%;
-  }
 }
 
 @media only screen and (min-width: 750px) {
@@ -205,8 +200,9 @@
   }
 
   .info-overlay-container {
-    font-size: 1em;
+    font-size: 0.85em;
     line-height: 1.4em;
+    width: 25%;
   }
 
   .info-background-img-container {
@@ -229,10 +225,6 @@
     width: 33.33%;
     height: 100%;
     float: left;
-  }
-
-  .info-overlay-container {
-    width: 25%;
   }
 }
 
@@ -248,8 +240,9 @@
   }
 
   .info-overlay-container {
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.5em;
+    width: 25%;
   }
 
   .info-background-img-container {
@@ -272,10 +265,6 @@
     width: 33.33%;
     height: 100%;
     float: left;
-  }
-
-  .info-overlay-container {
-    width: 25%;
   }
 }
 
@@ -291,8 +280,9 @@
   }
 
   .info-overlay-container {
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.6em;
+    width: 25%;
   }
 
   .info-background-img-container {
@@ -315,10 +305,6 @@
     width: 33.33%;
     height: 100%;
     float: left;
-  }
-
-  .info-overlay-container {
-    width: 25%;
   }
 }
 
@@ -334,8 +320,9 @@
   }
 
   .info-overlay-container {
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 1.7em;
+    width: 25%;
   }
 
   .info-background-img-container {
@@ -358,9 +345,5 @@
     width: 33.33%;
     height: 100%;
     float: left;
-  }
-
-  .info-overlay-container {
-    width: 25%;
   }
 }
