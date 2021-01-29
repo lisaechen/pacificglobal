@@ -50,6 +50,9 @@ export default class GeneralInfo extends Component {
   }
 }
 
-const always_natural = "...";
-const global_sourcing = "...";
-const always_fresh = "...";
+const always_natural =
+  "No artificial stimulants, ever. All our partner farms use natural pesticide and fertilizer to ensure that no harmful substances get onto the produce your customers will consume.";
+const global_sourcing =
+  "We have a network of farms and logistics supplies from around the world to ensure that whatever you need, we have during every season. No compromises necessary. ";
+const always_fresh =
+  "From the farm to the consumer, our network of logistics partners will ensure that the produce gets to you, the distributor, in a timely manner. A fresh and appealing look guaranteed. ";
