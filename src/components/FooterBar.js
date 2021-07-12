@@ -37,6 +37,7 @@ export default class FooterBar extends Component {
               <a href="https://unsplash.com/">
                 <img className="footer-links-icon" src={unsplash} />
               </a>
+              <span>test</span>
             </div>
           </div>
         </div>
