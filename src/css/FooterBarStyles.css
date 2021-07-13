@@ -17,12 +17,11 @@
   position: relative;
 }
 
-/* 504f4f */
 .footer-copyright {
   background-color: #ffe3ce;
   display: flex;
   justify-content: center;
-  color: white;
+  color: #504f4f;
   padding: 0.6em;
 }
 
