@@ -4,7 +4,6 @@ import "../css/FooterBarStyles.css";
 
 import mail from "../icons/icons8-envelope-96.svg";
 import phone from "../icons/icons8-phone-96.svg";
-// import marker from "../icons/icons8-marker-96.svg";
 
 import icons8 from "../icons/Icons8_logo.svg";
 import unsplash from "../icons/Unsplash_wordmark_logo.svg";
