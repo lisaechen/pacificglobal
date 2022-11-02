@@ -12,15 +12,15 @@ export default class WhoAreWe extends Component {
         </Element>
         <div className="who-we-are-text-container">
           <div>
-            We are one of the competitive exporters of fresh fruits and
-            vegetables, as well as other food products, currently shipping from
-            United States, Canada, Mexico, Chile to Asia and other international
+            We are one of the competitive exporters of fresh fruits,
+            vegetables, as well as other food products. We currently ship from the
+            United States, Canada, Mexico, and Chile to Asia and other international
             markets.
           </div>
           <br />
           <div>
-            We are also importing many kinds of products. Please feel free to
-            contact us directly for more details.
+            In addition to exporting, we also import many kinds of products. Please feel free to
+            contact us for more details.
           </div>
           <br />
           <br />
